@@ -11,7 +11,7 @@ public class AzureSpringDemoApplication {
 
     @GetMapping("/message")
     public String message(){
-        return "From Spring Azure, deployed successfully";
+        return "From Spring Azure, updated for CI/CD, deployed successfully";
     }
 
     public static void main(String[] args) {
